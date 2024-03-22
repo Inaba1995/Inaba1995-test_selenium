@@ -24,3 +24,4 @@ jobs:
         run: java -jar ./artifacts/app-mbank.jar &
       - name: Build with Gradle
         # Запускаем автотесты
+        run: ./gradlew test --info
